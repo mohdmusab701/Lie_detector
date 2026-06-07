@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0;
+    min-width: 320px;
+    background: #000000;
+    color: #f5f5f5;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  ::selection {
+    background: rgba(34, 211, 238, 0.35);
+  }
+}
+
+@layer components {
+  .container-shell {
+    @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .glass-card {
+    @apply border border-white/[0.08] bg-white/[0.025] shadow-2xl shadow-black/45 backdrop-blur-2xl;
+  }
+
+  .glow-button {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-cyanGlow/25 bg-[#d8f7ff] px-5 py-3 text-sm font-semibold text-carbon shadow-[0_0_24px_rgba(34,211,238,0.16)] transition duration-300 hover:-translate-y-0.5 hover:border-white/30 hover:bg-white hover:shadow-[0_0_32px_rgba(34,211,238,0.22)] focus:outline-none focus:ring-2 focus:ring-cyanGlow/40 focus:ring-offset-2 focus:ring-offset-carbon;
+  }
+
+  .ghost-button {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-white/10 bg-white/[0.025] px-5 py-3 text-sm font-semibold text-stone-100 backdrop-blur-xl transition duration-300 hover:-translate-y-0.5 hover:border-[#d99a45]/35 hover:bg-white/[0.055] hover:text-white focus:outline-none focus:ring-2 focus:ring-[#d99a45]/30 focus:ring-offset-2 focus:ring-offset-carbon;
+  }
+
+  .section-title {
+    @apply text-3xl font-bold tracking-tight text-stone-50 sm:text-4xl;
+  }
+
+  .section-copy {
+    @apply mt-3 max-w-2xl text-base leading-7 text-stone-300;
+  }
+}

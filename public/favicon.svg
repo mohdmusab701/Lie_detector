@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Lie Detector favicon">
+  <defs>
+    <linearGradient id="shield" x1="12" x2="52" y1="8" y2="56" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#86d9e8" />
+      <stop offset="0.55" stop-color="#111827" />
+      <stop offset="1" stop-color="#d99a45" />
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.2" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="#030303" />
+  <path d="M32 7 50 14v15c0 13.5-8 22.5-18 28C22 51.5 14 42.5 14 29V14L32 7Z" fill="url(#shield)" opacity="0.95" />
+  <path d="M32 13 45 18v11c0 10-5.4 17.1-13 21.7C24.4 46.1 19 39 19 29V18l13-5Z" fill="#050505" opacity="0.86" />
+  <path d="M16 31h7m18 0h7M32 15v7m0 20v7" stroke="#86d9e8" stroke-width="2" stroke-linecap="round" opacity="0.75" />
+  <path d="M18 31c4.2-6.4 8.8-9.6 14-9.6S41.8 24.6 46 31c-4.2 6.4-8.8 9.6-14 9.6S22.2 37.4 18 31Z" fill="#070707" stroke="#f5f5f5" stroke-width="2.4" />
+  <circle cx="32" cy="31" r="6.8" fill="#86d9e8" filter="url(#glow)" />
+  <circle cx="32" cy="31" r="2.7" fill="#030303" />
+  <path d="M12 13h7M45 13h7M12 51h7M45 51h7" stroke="#d99a45" stroke-width="2.5" stroke-linecap="round" opacity="0.9" />
+</svg>
