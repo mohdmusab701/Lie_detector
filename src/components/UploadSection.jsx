@@ -238,7 +238,7 @@ export default function UploadSection() {
         <p className="text-sm font-semibold uppercase tracking-[0.24em] text-cyanGlow">AI detection</p>
         <h2 className="section-title mt-3">Upload media for an authenticity scan</h2>
         <p className="section-copy mx-auto">
-          Upload an image or video and Lie_detector will send it securely to the backend AI detection engine for analysis.
+          Upload an image or video and AI Lie Detector will send it securely to the backend AI detection engine for analysis.
         </p>
       </div>
 
@@ -436,7 +436,7 @@ export default function UploadSection() {
                 </div>
               </div>
               <div className="mt-6 rounded-2xl border border-cyanGlow/15 bg-black/75 p-4 text-sm leading-6 text-stone-300">
-                Lie_detector can make mistakes. AI-based results are predictions, not guaranteed proof.
+                AI Lie Detector can make mistakes. AI-based results are predictions, not guaranteed proof.
                 <button type="button" onClick={() => setDisclaimerOpen(true)} className="ml-2 font-semibold text-cyanGlow transition hover:text-white">
                   Read More
                 </button>
@@ -461,7 +461,7 @@ export default function UploadSection() {
               </button>
             </div>
             <p className="mt-5 leading-8 text-stone-300">
-              Lie_detector is an AI-oriented media analysis platform. The results shown by the system are based on AI models, visual patterns, metadata signals, and probability-based analysis. Because AI detection itself is not always 100% accurate, the result should not be treated as final legal or factual proof. Users should verify important media from trusted sources before making decisions or sharing content. Lie_detector aims to support awareness, reduce misinformation, and help users think critically, but it cannot guarantee perfect accuracy in every case.
+              AI Lie Detector is an AI-oriented media analysis platform. The results shown by the system are based on AI models, visual patterns, metadata signals, and probability-based analysis. Because AI detection itself is not always 100% accurate, the result should not be treated as final legal or factual proof. Users should verify important media from trusted sources before making decisions or sharing content. AI Lie Detector aims to support awareness, reduce misinformation, and help users think critically, but it cannot guarantee perfect accuracy in every case.
             </p>
             <button type="button" onClick={() => setDisclaimerOpen(false)} className="glow-button mt-6">
               I Understand

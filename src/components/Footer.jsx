@@ -27,7 +27,7 @@ export default function Footer() {
               <ScanSearch className="h-5 w-5 text-cyanGlow" />
             </span>
             <span className="text-xl font-black tracking-wide text-stone-50">
-              Lie_detector
+              AI Lie Detector
             </span>
           </div>
           <p className="mt-4 max-w-md leading-7 text-stone-500">
@@ -71,7 +71,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="border-t border-white/10 py-4 text-center text-sm text-stone-600">
-        © 2026 Lie_detector. All rights reserved.
+        © 2026 AI Lie Detector. All rights reserved.
       </div>
     </footer>
   );

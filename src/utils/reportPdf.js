@@ -34,7 +34,7 @@ function buildReportLines(reportData) {
   const summary = report.summary || {};
   const history = Array.isArray(report.recentDetections) ? report.recentDetections : Array.isArray(report.history) ? report.history : [];
   const lines = [
-    "Lie Detector Verification Report",
+    "AI Lie Detector Verification Report",
     `Generated: ${formatDate(report.generatedAt)}`,
     "",
     "User",

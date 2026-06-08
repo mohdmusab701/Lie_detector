@@ -28,7 +28,7 @@ export default function CinematicGallery() {
             A quieter way to inspect what the internet asks you to believe.
           </h2>
           <p className="mt-6 max-w-lg leading-8 text-stone-400">
-            Lie_detector is designed around calm verification: visual evidence, source context, metadata signals, and confidence cues presented with restraint.
+            AI Lie Detector is designed around calm verification: visual evidence, source context, metadata signals, and confidence cues presented with restraint.
           </p>
           <div className="mt-8 h-px w-36 bg-gradient-to-r from-amberGlow/70 via-cyanGlow/30 to-transparent" />
         </div>

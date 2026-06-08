@@ -72,7 +72,7 @@ export default function ContactForm() {
       </div>
       <label className="mt-5 grid gap-2 text-sm font-medium text-stone-300">
         Message
-        <textarea value={form.message} onChange={updateField("message")} className="min-h-36 resize-y rounded-2xl border border-white/10 bg-black/75 px-4 py-3 text-white outline-none transition focus:border-cyanGlow/45" placeholder="Tell us what would make Lie_detector more useful." required />
+        <textarea value={form.message} onChange={updateField("message")} className="min-h-36 resize-y rounded-2xl border border-white/10 bg-black/75 px-4 py-3 text-white outline-none transition focus:border-cyanGlow/45" placeholder="Tell us what would make AI Lie Detector more useful." required />
       </label>
       <button type="submit" className="glow-button mt-6 disabled:cursor-not-allowed disabled:opacity-60" disabled={submitting}>
         {submitting ? "Submitting..." : "Submit Feedback"} <Send className="h-4 w-4" />

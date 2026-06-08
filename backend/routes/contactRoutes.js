@@ -61,10 +61,10 @@ router.post("/contact", async (req, res) => {
     });
 
     await transporter.sendMail({
-      from: `"Lie_detector Feedback" <${process.env.EMAIL_USER}>`,
+      from: `"AI Lie Detector Feedback" <${process.env.EMAIL_USER}>`,
       replyTo: email,
       to: destinationEmail,
-      subject: "New Lie Detector Feedback",
+      subject: "New AI Lie Detector Feedback",
       text: [
         `Authenticated User: ${authenticatedName || "Guest"}${authenticatedEmail ? ` (${authenticatedEmail})` : ""}`,
         `Submitted Name: ${name}`,

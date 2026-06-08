@@ -14,7 +14,7 @@ export default function Contact() {
       <div className="grid items-start gap-8 lg:grid-cols-[0.95fr_1.05fr] xl:gap-12">
         <div className="max-w-2xl">
           <p className="text-sm font-semibold uppercase tracking-[0.24em] text-cyanGlow">Contact</p>
-          <h1 className="mt-3 text-4xl font-black tracking-tight text-white sm:text-5xl">Connect with Lie Detector</h1>
+          <h1 className="mt-3 text-4xl font-black tracking-tight text-white sm:text-5xl">Connect with AI Lie Detector</h1>
           <p className="mt-5 text-lg leading-8 text-stone-300">
             Have feedback, questions, collaboration ideas, or found suspicious AI-generated media? Reach out and help us make digital spaces safer.
           </p>

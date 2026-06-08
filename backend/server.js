@@ -242,7 +242,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/health", (_req, res) => {
-  res.json({ ok: true, service: "Lie_detector backend" });
+  res.json({ ok: true, service: "AI Lie Detector backend" });
 });
 
 app.use((err, _req, res, _next) => {
@@ -293,7 +293,7 @@ async function startServer() {
     registerMongoDriverLogging();
 
     httpServer = app.listen(PORT, () => {
-      console.log(`Lie_detector backend running on port ${PORT}`);
+      console.log(`AI Lie Detector backend running on port ${PORT}`);
     });
   } catch (error) {
     console.error("Backend startup error:", error.message);

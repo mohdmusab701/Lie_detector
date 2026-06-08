@@ -149,7 +149,7 @@ export default function Hero() {
           />
         </h1>
         <p className="mt-4 max-w-xl text-base leading-7 text-stone-400 sm:text-lg sm:leading-8">
-          Lie_detector helps people identify suspicious synthetic media, reduce misinformation risk, and make faster trust decisions with clear confidence signals.
+          AI Lie Detector helps people identify suspicious synthetic media, reduce misinformation risk, and make faster trust decisions with clear confidence signals.
         </p>
         <div className="mt-7 flex flex-col gap-3 sm:flex-row">
           <a href="#upload" className="glow-button">

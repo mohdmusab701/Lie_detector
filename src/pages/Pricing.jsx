@@ -95,7 +95,7 @@ export default function Pricing() {
         key: order.keyId,
         amount: order.amount,
         currency: order.currency,
-        name: "Lie_detector",
+        name: "AI Lie Detector",
         description: selectedPlan.name,
         order_id: order.orderId,
         prefill: {
@@ -160,7 +160,7 @@ export default function Pricing() {
         <p className="text-sm font-semibold uppercase tracking-[0.24em] text-amberGlow">Purchase access</p>
         <h1 className="mt-3 text-4xl font-black tracking-tight text-stone-50 sm:text-5xl">Choose your verification pack</h1>
         <p className="section-copy mx-auto">
-          Upgrade your verification plan to unlock more scans and video detection while keeping the current Lie_detector experience intact.
+          Upgrade your verification plan to unlock more scans and video detection while keeping the current AI Lie Detector experience intact.
         </p>
       </div>
 

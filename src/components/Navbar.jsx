@@ -69,7 +69,7 @@ export default function Navbar() {
             <ScanSearch className="h-5 w-5 text-cyanGlow" />
           </span>
           <span className="text-xl font-black tracking-wide text-stone-50 drop-shadow-[0_0_14px_rgba(134,217,232,0.16)]">
-            Lie_detector
+            AI Lie Detector
           </span>
         </NavLink>
 

@@ -21,7 +21,7 @@ const FALLBACK_ARTICLES = [
     description: "Multiple accounts shared computer-generated emergency scenes before official agencies could publish corrections.",
     publishedAt: "2026-05-28T00:00:00Z",
     image: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=85",
-    source: "Lie_detector sample",
+    source: "AI Lie Detector sample",
     url: "",
   },
   {
@@ -31,7 +31,7 @@ const FALLBACK_ARTICLES = [
     description: "A realistic fake video imitated a public figure to push a suspicious investment link.",
     publishedAt: "2026-05-24T00:00:00Z",
     image: "https://images.unsplash.com/photo-1642790551116-18e150f248e1?auto=format&fit=crop&w=900&q=85",
-    source: "Lie_detector sample",
+    source: "AI Lie Detector sample",
     url: "",
   },
   {
@@ -41,7 +41,7 @@ const FALLBACK_ARTICLES = [
     description: "Image artifacts and inconsistent signage suggested the viral gallery was synthetically produced.",
     publishedAt: "2026-05-19T00:00:00Z",
     image: "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=900&q=85",
-    source: "Lie_detector sample",
+    source: "AI Lie Detector sample",
     url: "",
   },
   {
@@ -51,7 +51,7 @@ const FALLBACK_ARTICLES = [
     description: "A counterfeit announcement page used AI-generated packaging images and false safety claims.",
     publishedAt: "2026-05-12T00:00:00Z",
     image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=900&q=85",
-    source: "Lie_detector sample",
+    source: "AI Lie Detector sample",
     url: "",
   },
   {
@@ -61,7 +61,7 @@ const FALLBACK_ARTICLES = [
     description: "Lip-sync mismatch and audio artifacts indicated a manipulated video intended to influence voters.",
     publishedAt: "2026-05-07T00:00:00Z",
     image: "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=900&q=85",
-    source: "Lie_detector sample",
+    source: "AI Lie Detector sample",
     url: "",
   },
   {
@@ -71,7 +71,7 @@ const FALLBACK_ARTICLES = [
     description: "AI-created clinical visuals were presented as verified evidence without credible source material.",
     publishedAt: "2026-04-30T00:00:00Z",
     image: "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&w=900&q=85",
-    source: "Lie_detector sample",
+    source: "AI Lie Detector sample",
     url: "",
   },
   {
@@ -81,7 +81,7 @@ const FALLBACK_ARTICLES = [
     description: "Reverse-image checks and lighting analysis suggested the viral images were synthetic composites.",
     publishedAt: "2026-04-23T00:00:00Z",
     image: "https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=900&q=85",
-    source: "Lie_detector sample",
+    source: "AI Lie Detector sample",
     url: "",
   },
   {
@@ -91,7 +91,7 @@ const FALLBACK_ARTICLES = [
     description: "A synthetic audio clip was paired with fake captions to create urgency around a nonexistent alert.",
     publishedAt: "2026-04-15T00:00:00Z",
     image: "https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=900&q=85",
-    source: "Lie_detector sample",
+    source: "AI Lie Detector sample",
     url: "",
   },
   {
@@ -101,7 +101,7 @@ const FALLBACK_ARTICLES = [
     description: "The notice copied official styling but included fabricated dates, names, and unsafe instructions.",
     publishedAt: "2026-04-08T00:00:00Z",
     image: "https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=900&q=85",
-    source: "Lie_detector sample",
+    source: "AI Lie Detector sample",
     url: "",
   },
 ];

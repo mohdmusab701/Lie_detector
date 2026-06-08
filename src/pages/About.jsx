@@ -16,7 +16,7 @@ export default function About() {
           <p className="text-sm font-semibold uppercase tracking-[0.24em] text-violetGlow">About us</p>
           <h1 className="mt-3 text-4xl font-black tracking-tight text-white sm:text-6xl">A verification layer for the synthetic media era</h1>
           <p className="mt-6 text-lg leading-8 text-stone-300">
-            Lie_detector is a frontend concept for an AI detection platform that helps people evaluate whether images and videos are authentic or generated. It was created to make media verification approachable, fast, and understandable.
+            AI Lie Detector is a frontend concept for an AI detection platform that helps people evaluate whether images and videos are authentic or generated. It was created to make media verification approachable, fast, and understandable.
           </p>
           <p className="mt-4 leading-8 text-stone-400">
             The end goal is to help individuals, journalists, communities, and organizations respond to fake media before it becomes misinformation. The product is designed around transparency, confidence scoring, and practical risk communication.

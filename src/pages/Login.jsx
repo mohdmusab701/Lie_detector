@@ -58,7 +58,7 @@ export default function Login() {
           </span>
           <div>
             <p className="text-sm font-semibold uppercase tracking-[0.22em] text-cyanGlow">Secure access</p>
-            <h1 className="mt-1 text-3xl font-black text-white">Login to Lie_detector</h1>
+            <h1 className="mt-1 text-3xl font-black text-white">Login to AI Lie Detector</h1>
           </div>
         </div>
 
@@ -95,7 +95,7 @@ export default function Login() {
         </form>
 
         <p className="mt-6 text-center text-sm text-stone-400">
-          New to Lie_detector?{" "}
+          New to AI Lie Detector?{" "}
           <Link to="/signup" className="font-semibold text-cyanGlow transition hover:text-white">
             Create an account
           </Link>

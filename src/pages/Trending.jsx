@@ -144,7 +144,7 @@ export default function Trending() {
           <p className="text-sm font-semibold uppercase tracking-[0.24em] text-amberGlow">Trending intelligence</p>
           <h1 className="mt-3 text-4xl font-black tracking-tight text-stone-50 sm:text-6xl">AI fake media reports worth watching</h1>
           <p className="mt-5 text-lg leading-8 text-stone-400">
-            Live editorial cards showing how Lie_detector can surface high-risk synthetic media trends for analysts, creators, and everyday users.
+            Live editorial cards showing how AI Lie Detector can surface high-risk synthetic media trends for analysts, creators, and everyday users.
           </p>
         </div>
 
